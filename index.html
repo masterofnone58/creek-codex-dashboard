@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Company Operations Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <p id="brand-eyebrow" class="eyebrow">Operations Platform</p>
+        <h1 id="brand-title">Creek Group Console</h1>
+        <p id="as-of" class="subtle"></p>
+      </div>
+
+      <div class="language-wrap">
+        <label id="language-label" for="language-select">Language</label>
+        <select id="language-select">
+          <option value="en">English</option>
+          <option value="zh-CN">简体中文</option>
+        </select>
+      </div>
+
+      <div class="search-wrap">
+        <label id="search-label" for="company-search">Find company</label>
+        <input id="company-search" type="search" placeholder="Search by name, region, tag">
+      </div>
+
+      <div class="company-list-wrap">
+        <h2 id="company-list-title">Companies</h2>
+        <ul id="company-list" class="company-list"></ul>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section class="top-panel">
+        <div>
+          <p id="group-view-eyebrow" class="eyebrow">Group View</p>
+          <h2 id="group-name">Multi-Company Overview</h2>
+          <p id="group-access-note" class="subtle">Access: All users can view all companies (V1)</p>
+        </div>
+        <div class="chip-row" id="group-tags"></div>
+      </section>
+
+      <section class="kpi-grid" id="group-kpis"></section>
+
+      <section class="insight-grid">
+        <article class="panel-card">
+          <h3 id="panel-revenue-trend">Revenue Trend (12M)</h3>
+          <div id="group-revenue-trend"></div>
+        </article>
+        <article class="panel-card">
+          <h3 id="panel-transaction-trend">Transactions Trend (12M)</h3>
+          <div id="group-transaction-trend"></div>
+        </article>
+        <article class="panel-card">
+          <h3 id="panel-stock-distribution">Inventory by Company</h3>
+          <div id="group-stock-distribution"></div>
+        </article>
+        <article class="panel-card">
+          <h3 id="panel-lead-funnel">Sales Lead Funnel</h3>
+          <div id="group-lead-funnel"></div>
+        </article>
+      </section>
+
+      <section class="busy-grid">
+        <article class="panel-card busy-card">
+          <h3 id="panel-priority-tasks">Priority Tasks</h3>
+          <div id="group-task-feed"></div>
+        </article>
+        <article class="panel-card busy-card">
+          <h3 id="panel-alert-feed">Alerts Feed</h3>
+          <div id="group-alert-feed"></div>
+        </article>
+        <article class="panel-card busy-card">
+          <h3 id="panel-recent-transactions">Recent Transactions</h3>
+          <div id="group-transaction-feed"></div>
+        </article>
+        <article class="panel-card busy-card">
+          <h3 id="panel-active-leads">Active Sales Leads</h3>
+          <div id="group-lead-feed"></div>
+        </article>
+      </section>
+
+      <section id="company-section" class="content-panel">
+        <div class="panel-header">
+          <h3 id="detail-title">Select a company</h3>
+          <div class="tabs" id="tabs"></div>
+        </div>
+        <div id="detail-content" class="detail-content">
+          <div class="empty-state">
+            <p>Choose a company from the left menu to view operational details.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

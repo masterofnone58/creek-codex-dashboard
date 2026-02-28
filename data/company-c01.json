@@ -1,0 +1,364 @@
+{
+  "id": "c01",
+  "name": "Northforge Manufacturing LLC",
+  "overview": {
+    "revenueYTD": 68400000,
+    "salesYTD": 66200000,
+    "transactionsYTD": 165340,
+    "stockLevelDays": 36,
+    "openLeads": 312,
+    "taxPayableYTD": 4120000,
+    "customerOTD": 94.1
+  },
+  "charts": {
+    "monthlySales": [
+      { "period": "Mar", "value": 4700000 },
+      { "period": "Apr", "value": 5100000 },
+      { "period": "May", "value": 5300000 },
+      { "period": "Jun", "value": 5600000 },
+      { "period": "Jul", "value": 5900000 },
+      { "period": "Aug", "value": 5400000 },
+      { "period": "Sep", "value": 5700000 },
+      { "period": "Oct", "value": 6200000 },
+      { "period": "Nov", "value": 6500000 },
+      { "period": "Dec", "value": 6800000 },
+      { "period": "Jan", "value": 5400000 },
+      { "period": "Feb", "value": 5600000 }
+    ],
+    "monthlyTransactions": [
+      { "period": "Mar", "value": 13240 },
+      { "period": "Apr", "value": 13680 },
+      { "period": "May", "value": 14020 },
+      { "period": "Jun", "value": 14210 },
+      { "period": "Jul", "value": 14800 },
+      { "period": "Aug", "value": 14520 },
+      { "period": "Sep", "value": 14980 },
+      { "period": "Oct", "value": 15560 },
+      { "period": "Nov", "value": 16020 },
+      { "period": "Dec", "value": 16810 },
+      { "period": "Jan", "value": 14970 },
+      { "period": "Feb", "value": 16530 }
+    ]
+  },
+  "sales": {
+    "ordersYTD": 9830,
+    "avgOrderValue": 6730,
+    "winRatePct": 42.4,
+    "pipelineValue": 31600000,
+    "openLeads": 312,
+    "leadsAgingOver30Days": 44,
+    "pipelineStages": [
+      { "stage": "New", "count": 101 },
+      { "stage": "Qualified", "count": 82 },
+      { "stage": "Quoted", "count": 65 },
+      { "stage": "Negotiation", "count": 44 },
+      { "stage": "Verbal", "count": 20 }
+    ],
+    "regionalSales": [
+      { "region": "West", "value": 28100000 },
+      { "region": "Central", "value": 19600000 },
+      { "region": "East", "value": 12600000 },
+      { "region": "Export", "value": 5900000 }
+    ],
+    "topCustomers": [
+      { "name": "Helios Energy", "revenue": 8200000, "growthPct": 8.1 },
+      { "name": "Omega Machines", "revenue": 6300000, "growthPct": 4.3 },
+      { "name": "Kepler Motion", "revenue": 4700000, "growthPct": 6.2 }
+    ],
+    "leads": [
+      { "account": "Omega Heavy Machines", "value": 2300000, "stage": "Negotiation", "owner": "J. Miller", "nextStepDate": "2026-03-03" },
+      { "account": "Nexus Energy Projects", "value": 940000, "stage": "New", "owner": "P. Young", "nextStepDate": "2026-03-06" },
+      { "account": "Arbor Rail Components", "value": 620000, "stage": "Quoted", "owner": "L. Park", "nextStepDate": "2026-03-02" },
+      { "account": "Atlas Mining Supply", "value": 1180000, "stage": "Qualified", "owner": "R. Hall", "nextStepDate": "2026-03-05" }
+    ]
+  },
+  "transactions": {
+    "totalYTD": 165340,
+    "successRatePct": 98.6,
+    "failedCount": 910,
+    "refundsCount": 240,
+    "chargebackCount": 19,
+    "avgProcessingHours": 2.1,
+    "channelMix": [
+      { "channel": "Portal", "count": 70510 },
+      { "channel": "EDI", "count": 48200 },
+      { "channel": "Sales Desk", "count": 33240 },
+      { "channel": "Manual", "count": 13390 }
+    ],
+    "dailyVolume": [
+      { "day": "Mon", "count": 1720 },
+      { "day": "Tue", "count": 1880 },
+      { "day": "Wed", "count": 1810 },
+      { "day": "Thu", "count": 1760 },
+      { "day": "Fri", "count": 1690 },
+      { "day": "Sat", "count": 720 },
+      { "day": "Sun", "count": 510 }
+    ],
+    "recent": [
+      { "time": "18:09", "reference": "SO-554122", "type": "Sales Order", "amount": 131200, "status": "Released" },
+      { "time": "17:44", "reference": "INV-911420", "type": "Invoice", "amount": 64200, "status": "Posted" },
+      { "time": "17:11", "reference": "CN-90034", "type": "Credit Note", "amount": 8200, "status": "Posted" },
+      { "time": "16:46", "reference": "WMS-3312", "type": "Ship Confirm", "amount": 0, "status": "Confirmed" }
+    ],
+    "exceptions": [
+      { "issue": "Failed EDI mapping", "count": 36, "owner": "IT Ops" },
+      { "issue": "Missing tax code", "count": 14, "owner": "Finance" },
+      { "issue": "Duplicate invoice", "count": 9, "owner": "AR Team" }
+    ]
+  },
+  "operations": {
+    "utilizationAvgPct": 80.7,
+    "workOrders": {
+      "open": 126,
+      "released": 98,
+      "delayed": 9,
+      "critical": 3,
+      "completedThisWeek": 148
+    },
+    "scrapRatePct": 1.8,
+    "productionLines": [
+      { "name": "L1 Press", "outputUnits": 22800, "oeePct": 86.2, "downtimeHours": 12 },
+      { "name": "L2 CNC", "outputUnits": 18200, "oeePct": 82.5, "downtimeHours": 18 },
+      { "name": "L3 Finish", "outputUnits": 16400, "oeePct": 84.1, "downtimeHours": 14 }
+    ],
+    "plants": [
+      { "name": "Seattle Plant A", "short": "SEA", "utilizationPct": 81, "downtimeHours": 22, "safetyIncidents": 0 },
+      { "name": "Tacoma Plant B", "short": "TAC", "utilizationPct": 77, "downtimeHours": 35, "safetyIncidents": 1 },
+      { "name": "Spokane Plant C", "short": "SPK", "utilizationPct": 84, "downtimeHours": 18, "safetyIncidents": 0 }
+    ],
+    "maintenance": [
+      { "type": "Preventive", "open": 28, "overdue": 4 },
+      { "type": "Corrective", "open": 11, "overdue": 2 },
+      { "type": "Inspection", "open": 17, "overdue": 1 }
+    ]
+  },
+  "procurement": {
+    "openPOs": 87,
+    "latePOs": 11,
+    "spendYTD": 23600000,
+    "threeWayMatchExceptions": 18,
+    "contractsExpiring90Days": 7,
+    "supplierOTIFPct": 92.6,
+    "poStatus": [
+      { "status": "Open", "count": 87 },
+      { "status": "Approved", "count": 61 },
+      { "status": "Received", "count": 228 },
+      { "status": "Late", "count": 11 }
+    ],
+    "categorySpend": [
+      { "category": "Raw Mat", "value": 11200000 },
+      { "category": "MRO", "value": 4900000 },
+      { "category": "Chem", "value": 3100000 },
+      { "category": "Logistics", "value": 4400000 }
+    ],
+    "topVendors": [
+      { "name": "SteelCore Supply", "category": "Raw Material", "spend": 5200000, "rating": 4.6 },
+      { "name": "Pacific Industrial Chem", "category": "Chemical", "spend": 3100000, "rating": 4.3 },
+      { "name": "MotionParts Global", "category": "MRO", "spend": 2200000, "rating": 4.1 }
+    ],
+    "supplierRisks": [
+      { "vendor": "SteelCore Supply", "riskLevel": "Medium", "action": "Secure backup grade supplier" },
+      { "vendor": "MotionParts Global", "riskLevel": "Low", "action": "Monitor lead time weekly" }
+    ]
+  },
+  "inventory": {
+    "value": 14100000,
+    "turns": 6.2,
+    "stockLevelDays": 36,
+    "stockouts": 4,
+    "excessSKU": 28,
+    "obsoleteSKU": 11,
+    "warehouseValue": [
+      { "warehouse": "SEA-DC", "value": 6200000 },
+      { "warehouse": "TAC-DC", "value": 4300000 },
+      { "warehouse": "SPK-DC", "value": 3600000 }
+    ],
+    "agingBuckets": [
+      { "bucket": "0-30", "value": 7600000 },
+      { "bucket": "31-60", "value": 3100000 },
+      { "bucket": "61-90", "value": 2100000 },
+      { "bucket": "90+", "value": 1300000 }
+    ],
+    "criticalItems": [
+      { "sku": "AL-4402", "description": "Alloy Sheets 4mm", "daysCover": 6, "status": "Low" },
+      { "sku": "BR-2010", "description": "Bearing Kit", "daysCover": 4, "status": "Critical" },
+      { "sku": "GX-3310", "description": "Gear Housing", "daysCover": 5, "status": "Low" }
+    ],
+    "movementQueue": [
+      { "type": "Transfers", "count": 24, "owner": "Warehouse Lead" },
+      { "type": "Cycle Count", "count": 17, "owner": "Inventory Ctrl" },
+      { "type": "Returns", "count": 8, "owner": "Quality" }
+    ]
+  },
+  "trade": {
+    "exportOrders": 74,
+    "importShipments": 39,
+    "customsHolds": 2,
+    "tradeComplianceAlerts": 1,
+    "freightCostYTD": 3900000,
+    "avgTransitDays": 9.2,
+    "laneVolume": [
+      { "lane": "US-CN", "count": 21 },
+      { "lane": "US-MX", "count": 18 },
+      { "lane": "US-DE", "count": 12 },
+      { "lane": "US-CA", "count": 23 }
+    ],
+    "incotermMix": [
+      { "term": "FOB", "count": 44 },
+      { "term": "CIF", "count": 31 },
+      { "term": "DAP", "count": 26 },
+      { "term": "EXW", "count": 12 }
+    ],
+    "customsQueue": [
+      { "shipment": "XPT-1012", "issue": "HS code review", "ageDays": 2, "owner": "Trade Desk" },
+      { "shipment": "IMP-8821", "issue": "COO pending", "ageDays": 1, "owner": "Broker" }
+    ],
+    "brokerPerformance": [
+      { "name": "Portline Brokers", "onTimePct": 95.1, "disputes": 1 },
+      { "name": "Atlas Customs", "onTimePct": 92.4, "disputes": 2 }
+    ]
+  },
+  "finance": {
+    "arOverdue": 1800000,
+    "apOverdue": 970000,
+    "ebitdaPct": 12.2,
+    "cashOnHand": 7600000,
+    "budgetVariancePct": 2.1,
+    "forecastAccuracyPct": 93,
+    "monthCloseStatus": "On Track",
+    "intercompanyMismatches": 2,
+    "journalBacklog": 5,
+    "dsoDays": 39,
+    "dpoDays": 34,
+    "pnl": [
+      { "line": "Revenue", "actual": 68400000, "budget": 66100000, "variancePct": 3.5 },
+      { "line": "COGS", "actual": 49800000, "budget": 48600000, "variancePct": -2.5 },
+      { "line": "OPEX", "actual": 10300000, "budget": 10800000, "variancePct": 4.6 },
+      { "line": "EBITDA", "actual": 8300000, "budget": 6700000, "variancePct": 23.9 }
+    ],
+    "cashFlowByMonth": [
+      { "period": "Nov", "value": 1120000 },
+      { "period": "Dec", "value": 1380000 },
+      { "period": "Jan", "value": 870000 },
+      { "period": "Feb", "value": 1020000 }
+    ],
+    "financeQueue": [
+      { "task": "AR collections", "count": 29, "owner": "AR Lead" },
+      { "task": "PO accrual review", "count": 12, "owner": "Controller" },
+      { "task": "Expense exceptions", "count": 7, "owner": "AP Lead" }
+    ]
+  },
+  "tax": {
+    "taxPayableYTD": 4120000,
+    "corporateTaxAccrued": 2480000,
+    "indirectTaxAccrued": 1640000,
+    "filedOnTimePct": 98.4,
+    "auditFlags": 1,
+    "openDisputes": 0,
+    "taxByType": [
+      { "type": "Corp", "value": 2480000 },
+      { "type": "Sales", "value": 1020000 },
+      { "type": "Import", "value": 620000 }
+    ],
+    "filingsDue": [
+      { "name": "Sales Tax WA", "dueDate": "2026-03-08", "owner": "Tax Team", "status": "Prepared" },
+      { "name": "Import Duty Return", "dueDate": "2026-03-12", "owner": "Trade Finance", "status": "In Review" }
+    ],
+    "taxRisks": [
+      { "risk": "Transfer pricing support", "impact": "Medium", "action": "Refresh benchmark file" },
+      { "risk": "Indirect tax coding", "impact": "Low", "action": "Monthly validation script" }
+    ],
+    "auditTrail": [
+      { "item": "Q4 Sales Tax", "date": "2026-01-15", "state": "Filed" },
+      { "item": "Import Duty Reclass", "date": "2026-02-02", "state": "Closed" }
+    ]
+  },
+  "compliance": {
+    "auditFindingsOpen": 5,
+    "licensesExpiringIn90Days": 2,
+    "trainingCompletionPct": 97,
+    "openCAPA": 4,
+    "policyExceptions": 2,
+    "findingsByArea": [
+      { "area": "Quality", "count": 2 },
+      { "area": "EHS", "count": 1 },
+      { "area": "Trade", "count": 1 },
+      { "area": "IT", "count": 1 }
+    ],
+    "auditCalendar": [
+      { "audit": "ISO 9001", "date": "2026-03-18", "owner": "QA Lead", "status": "Scheduled" },
+      { "audit": "Supplier Audit", "date": "2026-03-25", "owner": "Procurement", "status": "Planned" }
+    ],
+    "capaQueue": [
+      { "item": "Machine guarding", "owner": "Ops", "dueDate": "2026-03-05", "state": "In Progress" },
+      { "item": "Label control", "owner": "QA", "dueDate": "2026-03-07", "state": "Open" }
+    ],
+    "licenseRegistry": [
+      { "license": "HazMat Storage", "expiryDate": "2026-04-20", "status": "Renewal Started" },
+      { "license": "Export Cert", "expiryDate": "2026-06-15", "status": "Valid" }
+    ]
+  },
+  "companyManagement": {
+    "legalEntity": "Northforge Manufacturing LLC",
+    "registrationNo": "WA-448219",
+    "entityType": "Limited Liability Company",
+    "hq": "Seattle, WA",
+    "fiscalYear": "Jan-Dec",
+    "currency": "USD",
+    "sites": [
+      { "name": "Seattle Plant A", "type": "Manufacturing", "headcount": 170, "manager": "K. Patel" },
+      { "name": "Tacoma Plant B", "type": "Manufacturing", "headcount": 132, "manager": "M. Jones" },
+      { "name": "Spokane Plant C", "type": "Assembly", "headcount": 118, "manager": "D. Reed" }
+    ],
+    "bankAccounts": [
+      { "bank": "Chase", "accountNo": "...3191", "currency": "USD", "use": "Operations" },
+      { "bank": "BoA", "accountNo": "...8827", "currency": "USD", "use": "Payroll" }
+    ],
+    "insurancePolicies": [
+      { "policy": "General Liability", "provider": "AIG", "expiryDate": "2026-12-31" },
+      { "policy": "Product Liability", "provider": "Travelers", "expiryDate": "2026-10-15" }
+    ],
+    "systems": [
+      { "name": "ERP Core", "purpose": "Transactions", "owner": "IT" },
+      { "name": "MES", "purpose": "Production", "owner": "Operations" },
+      { "name": "WMS", "purpose": "Inventory", "owner": "Supply Chain" }
+    ]
+  },
+  "masterData": {
+    "items": 14820,
+    "vendors": 342,
+    "customers": 211,
+    "boms": 1960,
+    "priceLists": 26,
+    "warehouses": 3
+  },
+  "activity": {
+    "tasks": [
+      { "title": "Close delayed WO batch", "priority": "High", "companyId": "c01", "module": "Operations", "owner": "Plant Ops", "dueDate": "2026-03-01", "status": "Open" },
+      { "title": "Review 3-way match exceptions", "priority": "Medium", "companyId": "c01", "module": "Procurement", "owner": "Buyer Lead", "dueDate": "2026-03-02", "status": "Open" },
+      { "title": "Follow up aging leads", "priority": "Medium", "companyId": "c01", "module": "Sales", "owner": "Sales Ops", "dueDate": "2026-03-03", "status": "In Progress" },
+      { "title": "Prepare sales tax filing", "priority": "Low", "companyId": "c01", "module": "Tax", "owner": "Tax Team", "dueDate": "2026-03-08", "status": "Open" }
+    ],
+    "alerts": [
+      { "message": "Bearing Kit stock below safety level", "severity": "Warning", "companyId": "c01", "module": "Inventory", "time": "2026-02-28 16:48" },
+      { "message": "CNC line downtime spike", "severity": "Warning", "companyId": "c01", "module": "Operations", "time": "2026-02-28 15:31" },
+      { "message": "Pipeline stage conversion improved", "severity": "Info", "companyId": "c01", "module": "Sales", "time": "2026-02-28 14:56" },
+      { "message": "One permit renewal pending", "severity": "Info", "companyId": "c01", "module": "Compliance", "time": "2026-02-28 13:10" }
+    ],
+    "timeline": [
+      { "time": "18:09", "event": "SO-554122 released", "owner": "Order Desk", "module": "Transactions" },
+      { "time": "17:28", "event": "WO-1189 moved to critical", "owner": "Plant A", "module": "Operations" },
+      { "time": "16:47", "event": "Inventory cycle-count posted", "owner": "WMS", "module": "Inventory" },
+      { "time": "15:42", "event": "Lead status updated", "owner": "Sales Ops", "module": "Sales" }
+    ],
+    "pendingApprovals": [
+      { "request": "PO > $100k", "count": 4, "owner": "Procurement" },
+      { "request": "Credit note", "count": 3, "owner": "Finance" },
+      { "request": "Inventory adj", "count": 2, "owner": "Warehouse" }
+    ],
+    "escalations": [
+      { "issue": "Late work order cluster", "ageDays": 3, "owner": "Plant Manager" },
+      { "issue": "Supplier delay risk", "ageDays": 2, "owner": "Sourcing Lead" }
+    ]
+  }
+}

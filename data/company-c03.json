@@ -1,0 +1,363 @@
+{
+  "id": "c03",
+  "name": "Summit Alloy Works Inc.",
+  "overview": {
+    "revenueYTD": 53800000,
+    "salesYTD": 52600000,
+    "transactionsYTD": 119900,
+    "stockLevelDays": 54,
+    "openLeads": 295,
+    "taxPayableYTD": 5170000,
+    "customerOTD": 87.9
+  },
+  "charts": {
+    "monthlySales": [
+      { "period": "Mar", "value": 3300000 },
+      { "period": "Apr", "value": 3500000 },
+      { "period": "May", "value": 3750000 },
+      { "period": "Jun", "value": 4020000 },
+      { "period": "Jul", "value": 4230000 },
+      { "period": "Aug", "value": 4090000 },
+      { "period": "Sep", "value": 4380000 },
+      { "period": "Oct", "value": 4520000 },
+      { "period": "Nov", "value": 4560000 },
+      { "period": "Dec", "value": 4390000 },
+      { "period": "Jan", "value": 3840000 },
+      { "period": "Feb", "value": 4120000 }
+    ],
+    "monthlyTransactions": [
+      { "period": "Mar", "value": 5990 },
+      { "period": "Apr", "value": 6780 },
+      { "period": "May", "value": 7580 },
+      { "period": "Jun", "value": 7980 },
+      { "period": "Jul", "value": 8640 },
+      { "period": "Aug", "value": 8480 },
+      { "period": "Sep", "value": 8910 },
+      { "period": "Oct", "value": 9480 },
+      { "period": "Nov", "value": 9900 },
+      { "period": "Dec", "value": 10350 },
+      { "period": "Jan", "value": 6160 },
+      { "period": "Feb", "value": 7650 }
+    ]
+  },
+  "sales": {
+    "ordersYTD": 7340,
+    "avgOrderValue": 7160,
+    "winRatePct": 34.9,
+    "pipelineValue": 21500000,
+    "openLeads": 295,
+    "leadsAgingOver30Days": 82,
+    "pipelineStages": [
+      { "stage": "New", "count": 107 },
+      { "stage": "Qualified", "count": 82 },
+      { "stage": "Quoted", "count": 59 },
+      { "stage": "Negotiation", "count": 30 },
+      { "stage": "Verbal", "count": 17 }
+    ],
+    "regionalSales": [
+      { "region": "Central", "value": 23300000 },
+      { "region": "South", "value": 12400000 },
+      { "region": "West", "value": 9800000 },
+      { "region": "Export", "value": 7100000 }
+    ],
+    "topCustomers": [
+      { "name": "Titan Rail Systems", "revenue": 7400000, "growthPct": -3.4 },
+      { "name": "ForgeLine Heavy", "revenue": 5300000, "growthPct": 2.5 },
+      { "name": "Atlas Infrastructure", "revenue": 3900000, "growthPct": 1.8 }
+    ],
+    "leads": [
+      { "account": "Titan Rail Systems", "value": 2650000, "stage": "Qualified", "owner": "R. Chen", "nextStepDate": "2026-03-05" },
+      { "account": "Kepler Components", "value": 760000, "stage": "Quoted", "owner": "A. Shah", "nextStepDate": "2026-03-02" },
+      { "account": "Northern Foundry", "value": 1240000, "stage": "Negotiation", "owner": "M. Hill", "nextStepDate": "2026-03-07" },
+      { "account": "Pinnacle Steelworks", "value": 680000, "stage": "New", "owner": "C. Lam", "nextStepDate": "2026-03-08" }
+    ]
+  },
+  "transactions": {
+    "totalYTD": 119900,
+    "successRatePct": 96.8,
+    "failedCount": 2800,
+    "refundsCount": 640,
+    "chargebackCount": 78,
+    "avgProcessingHours": 3.3,
+    "channelMix": [
+      { "channel": "Portal", "count": 39880 },
+      { "channel": "EDI", "count": 36110 },
+      { "channel": "Buyer Desk", "count": 27810 },
+      { "channel": "Manual", "count": 16100 }
+    ],
+    "dailyVolume": [
+      { "day": "Mon", "count": 1240 },
+      { "day": "Tue", "count": 1360 },
+      { "day": "Wed", "count": 1310 },
+      { "day": "Thu", "count": 1290 },
+      { "day": "Fri", "count": 1220 },
+      { "day": "Sat", "count": 540 },
+      { "day": "Sun", "count": 420 }
+    ],
+    "recent": [
+      { "time": "17:18", "reference": "PO-330145", "type": "Purchase Order", "amount": 91400, "status": "Approved" },
+      { "time": "16:47", "reference": "ADJ-7711", "type": "Inventory Adj", "amount": 12400, "status": "Pending" },
+      { "time": "16:22", "reference": "INV-228814", "type": "Invoice", "amount": 55600, "status": "Posted" },
+      { "time": "15:51", "reference": "SO-440901", "type": "Sales Order", "amount": 46300, "status": "Released" }
+    ],
+    "exceptions": [
+      { "issue": "Manual posting delay", "count": 66, "owner": "Finance Ops" },
+      { "issue": "Pricing mismatch", "count": 34, "owner": "Sales Ops" },
+      { "issue": "Inventory adjustment review", "count": 21, "owner": "Inventory Ctrl" }
+    ]
+  },
+  "operations": {
+    "utilizationAvgPct": 71.0,
+    "workOrders": {
+      "open": 211,
+      "released": 161,
+      "delayed": 28,
+      "critical": 9,
+      "completedThisWeek": 104
+    },
+    "scrapRatePct": 3.9,
+    "productionLines": [
+      { "name": "L1 Forge", "outputUnits": 14900, "oeePct": 74.5, "downtimeHours": 27 },
+      { "name": "L2 Heat Treat", "outputUnits": 12100, "oeePct": 69.1, "downtimeHours": 38 },
+      { "name": "L3 Assembly", "outputUnits": 13500, "oeePct": 72.8, "downtimeHours": 29 }
+    ],
+    "plants": [
+      { "name": "Cleveland Forge Site", "short": "CLE", "utilizationPct": 69, "downtimeHours": 58, "safetyIncidents": 2 },
+      { "name": "Toledo Assembly Site", "short": "TOL", "utilizationPct": 73, "downtimeHours": 49, "safetyIncidents": 1 }
+    ],
+    "maintenance": [
+      { "type": "Preventive", "open": 44, "overdue": 13 },
+      { "type": "Corrective", "open": 26, "overdue": 9 },
+      { "type": "Inspection", "open": 19, "overdue": 4 }
+    ]
+  },
+  "procurement": {
+    "openPOs": 164,
+    "latePOs": 39,
+    "spendYTD": 20500000,
+    "threeWayMatchExceptions": 49,
+    "contractsExpiring90Days": 16,
+    "supplierOTIFPct": 85.4,
+    "poStatus": [
+      { "status": "Open", "count": 164 },
+      { "status": "Approved", "count": 120 },
+      { "status": "Received", "count": 286 },
+      { "status": "Late", "count": 39 }
+    ],
+    "categorySpend": [
+      { "category": "Raw Mat", "value": 12600000 },
+      { "category": "Energy", "value": 2400000 },
+      { "category": "MRO", "value": 1700000 },
+      { "category": "Logistics", "value": 3800000 }
+    ],
+    "topVendors": [
+      { "name": "Midwest Metal Inputs", "category": "Raw Material", "spend": 6100000, "rating": 3.7 },
+      { "name": "GreatLakes Energy", "category": "Utilities", "spend": 2400000, "rating": 3.9 },
+      { "name": "Precision Tooling Hub", "category": "MRO", "spend": 1700000, "rating": 4.1 }
+    ],
+    "supplierRisks": [
+      { "vendor": "Midwest Metal Inputs", "riskLevel": "High", "action": "Secure alternate mill capacity" },
+      { "vendor": "GreatLakes Energy", "riskLevel": "Medium", "action": "Hedge next quarter rates" }
+    ]
+  },
+  "inventory": {
+    "value": 17600000,
+    "turns": 5.1,
+    "stockLevelDays": 54,
+    "stockouts": 13,
+    "excessSKU": 65,
+    "obsoleteSKU": 29,
+    "warehouseValue": [
+      { "warehouse": "CLE-RM", "value": 8900000 },
+      { "warehouse": "TOL-FG", "value": 5400000 },
+      { "warehouse": "CLE-SP", "value": 3300000 }
+    ],
+    "agingBuckets": [
+      { "bucket": "0-30", "value": 7200000 },
+      { "bucket": "31-60", "value": 4500000 },
+      { "bucket": "61-90", "value": 3100000 },
+      { "bucket": "90+", "value": 2800000 }
+    ],
+    "criticalItems": [
+      { "sku": "MT-9100", "description": "Melt Grade Feedstock", "daysCover": 2, "status": "Critical" },
+      { "sku": "AS-5000", "description": "Assembly Rivets", "daysCover": 4, "status": "Low" },
+      { "sku": "FL-7780", "description": "Flux Material", "daysCover": 3, "status": "Critical" }
+    ],
+    "movementQueue": [
+      { "type": "Transfers", "count": 39, "owner": "Warehouse Lead" },
+      { "type": "Cycle Count", "count": 28, "owner": "Inventory Ctrl" },
+      { "type": "Rework Return", "count": 19, "owner": "Quality" }
+    ]
+  },
+  "trade": {
+    "exportOrders": 41,
+    "importShipments": 28,
+    "customsHolds": 4,
+    "tradeComplianceAlerts": 5,
+    "freightCostYTD": 4700000,
+    "avgTransitDays": 13.8,
+    "laneVolume": [
+      { "lane": "US-CA", "count": 14 },
+      { "lane": "US-MX", "count": 11 },
+      { "lane": "US-DE", "count": 9 },
+      { "lane": "US-BR", "count": 7 }
+    ],
+    "incotermMix": [
+      { "term": "FOB", "count": 31 },
+      { "term": "CIF", "count": 18 },
+      { "term": "DAP", "count": 12 },
+      { "term": "EXW", "count": 8 }
+    ],
+    "customsQueue": [
+      { "shipment": "IMP-99210", "issue": "Valuation mismatch", "ageDays": 5, "owner": "Broker" },
+      { "shipment": "EXP-30014", "issue": "Certificate pending", "ageDays": 3, "owner": "Trade Desk" },
+      { "shipment": "IMP-99241", "issue": "Tariff update", "ageDays": 2, "owner": "Trade Desk" }
+    ],
+    "brokerPerformance": [
+      { "name": "Midwest Brokers", "onTimePct": 84.9, "disputes": 6 },
+      { "name": "Continental Customs", "onTimePct": 87.3, "disputes": 5 }
+    ]
+  },
+  "finance": {
+    "arOverdue": 3400000,
+    "apOverdue": 2190000,
+    "ebitdaPct": 7.8,
+    "cashOnHand": 5600000,
+    "budgetVariancePct": -4.4,
+    "forecastAccuracyPct": 81,
+    "monthCloseStatus": "Delayed",
+    "intercompanyMismatches": 9,
+    "journalBacklog": 21,
+    "dsoDays": 56,
+    "dpoDays": 41,
+    "pnl": [
+      { "line": "Revenue", "actual": 53800000, "budget": 56000000, "variancePct": -3.9 },
+      { "line": "COGS", "actual": 43800000, "budget": 43000000, "variancePct": -1.9 },
+      { "line": "OPEX", "actual": 5800000, "budget": 5400000, "variancePct": -7.4 },
+      { "line": "EBITDA", "actual": 4200000, "budget": 7600000, "variancePct": -44.7 }
+    ],
+    "cashFlowByMonth": [
+      { "period": "Nov", "value": 430000 },
+      { "period": "Dec", "value": 380000 },
+      { "period": "Jan", "value": 210000 },
+      { "period": "Feb", "value": 160000 }
+    ],
+    "financeQueue": [
+      { "task": "AR collections", "count": 58, "owner": "AR Lead" },
+      { "task": "Journal review", "count": 33, "owner": "Controller" },
+      { "task": "Capex reforecast", "count": 11, "owner": "FP&A" }
+    ]
+  },
+  "tax": {
+    "taxPayableYTD": 5170000,
+    "corporateTaxAccrued": 3010000,
+    "indirectTaxAccrued": 2160000,
+    "filedOnTimePct": 89.6,
+    "auditFlags": 5,
+    "openDisputes": 3,
+    "taxByType": [
+      { "type": "Corp", "value": 3010000 },
+      { "type": "Sales", "value": 1290000 },
+      { "type": "Import", "value": 870000 }
+    ],
+    "filingsDue": [
+      { "name": "State Tax Return OH", "dueDate": "2026-03-06", "owner": "Tax Team", "status": "Pending" },
+      { "name": "Use Tax Reconciliation", "dueDate": "2026-03-10", "owner": "Finance", "status": "In Review" }
+    ],
+    "taxRisks": [
+      { "risk": "Use tax under-accrual", "impact": "High", "action": "Perform retroactive assessment" },
+      { "risk": "Intercompany markups", "impact": "Medium", "action": "Transfer pricing update" }
+    ],
+    "auditTrail": [
+      { "item": "Q4 State Return", "date": "2026-01-19", "state": "Filed" },
+      { "item": "Use tax query", "date": "2026-02-12", "state": "Open" }
+    ]
+  },
+  "compliance": {
+    "auditFindingsOpen": 14,
+    "licensesExpiringIn90Days": 6,
+    "trainingCompletionPct": 84,
+    "openCAPA": 11,
+    "policyExceptions": 7,
+    "findingsByArea": [
+      { "area": "Safety", "count": 5 },
+      { "area": "Quality", "count": 4 },
+      { "area": "Finance", "count": 3 },
+      { "area": "Trade", "count": 2 }
+    ],
+    "auditCalendar": [
+      { "audit": "EHS Audit", "date": "2026-03-07", "owner": "EHS", "status": "Scheduled" },
+      { "audit": "SOX Control Test", "date": "2026-03-20", "owner": "Internal Audit", "status": "Planned" }
+    ],
+    "capaQueue": [
+      { "item": "Guarding compliance", "owner": "Plant", "dueDate": "2026-03-04", "state": "Overdue" },
+      { "item": "Process deviation closure", "owner": "Quality", "dueDate": "2026-03-06", "state": "In Progress" }
+    ],
+    "licenseRegistry": [
+      { "license": "Air Emissions Permit", "expiryDate": "2026-04-03", "status": "Renewal Needed" },
+      { "license": "Heavy Equipment License", "expiryDate": "2026-05-28", "status": "Renewal Started" }
+    ]
+  },
+  "companyManagement": {
+    "legalEntity": "Summit Alloy Works Incorporated",
+    "registrationNo": "OH-993402",
+    "entityType": "Corporation",
+    "hq": "Cleveland, OH",
+    "fiscalYear": "Jan-Dec",
+    "currency": "USD",
+    "sites": [
+      { "name": "Cleveland Forge Site", "type": "Manufacturing", "headcount": 186, "manager": "R. Monroe" },
+      { "name": "Toledo Assembly Site", "type": "Assembly", "headcount": 124, "manager": "E. Turner" }
+    ],
+    "bankAccounts": [
+      { "bank": "PNC", "accountNo": "...6622", "currency": "USD", "use": "Operations" },
+      { "bank": "KeyBank", "accountNo": "...7709", "currency": "USD", "use": "Payroll" }
+    ],
+    "insurancePolicies": [
+      { "policy": "Equipment Breakdown", "provider": "Liberty", "expiryDate": "2026-08-31" },
+      { "policy": "General Liability", "provider": "Hartford", "expiryDate": "2026-09-30" }
+    ],
+    "systems": [
+      { "name": "ERP Core", "purpose": "Transactions", "owner": "IT" },
+      { "name": "MES", "purpose": "Production", "owner": "Operations" },
+      { "name": "QMS", "purpose": "Quality", "owner": "Quality" }
+    ]
+  },
+  "masterData": {
+    "items": 17110,
+    "vendors": 386,
+    "customers": 188,
+    "boms": 2480,
+    "priceLists": 21,
+    "warehouses": 3
+  },
+  "activity": {
+    "tasks": [
+      { "title": "Recover delayed work orders", "priority": "High", "companyId": "c03", "module": "Operations", "owner": "Plant Manager", "dueDate": "2026-03-01", "status": "Open" },
+      { "title": "Finalize month-close journals", "priority": "High", "companyId": "c03", "module": "Finance", "owner": "Controller", "dueDate": "2026-03-02", "status": "In Progress" },
+      { "title": "Address CAPA overdue items", "priority": "Medium", "companyId": "c03", "module": "Compliance", "owner": "Quality", "dueDate": "2026-03-04", "status": "Open" },
+      { "title": "File state tax return", "priority": "Medium", "companyId": "c03", "module": "Tax", "owner": "Tax Team", "dueDate": "2026-03-06", "status": "Open" }
+    ],
+    "alerts": [
+      { "message": "Line L2 downtime exceeded threshold", "severity": "Critical", "companyId": "c03", "module": "Operations", "time": "2026-02-28 18:10" },
+      { "message": "Month-close delayed for entity", "severity": "Warning", "companyId": "c03", "module": "Finance", "time": "2026-02-28 17:12" },
+      { "message": "Critical feedstock has 2 days cover", "severity": "Critical", "companyId": "c03", "module": "Inventory", "time": "2026-02-28 16:36" },
+      { "message": "Air permit renewal pending", "severity": "Warning", "companyId": "c03", "module": "Compliance", "time": "2026-02-28 15:08" }
+    ],
+    "timeline": [
+      { "time": "17:18", "event": "PO-330145 approved", "owner": "Buyer Desk", "module": "Transactions" },
+      { "time": "16:47", "event": "Inventory adjustment posted", "owner": "Warehouse", "module": "Inventory" },
+      { "time": "15:59", "event": "CAPA moved to overdue", "owner": "Quality", "module": "Compliance" },
+      { "time": "15:21", "event": "WO-771 moved critical", "owner": "Plant A", "module": "Operations" }
+    ],
+    "pendingApprovals": [
+      { "request": "Inventory write-off", "count": 7, "owner": "Finance" },
+      { "request": "PO > $150k", "count": 6, "owner": "Procurement" },
+      { "request": "Overtime override", "count": 5, "owner": "Ops HR" }
+    ],
+    "escalations": [
+      { "issue": "Downtime escalation", "ageDays": 5, "owner": "Operations Director" },
+      { "issue": "Tax filing risk", "ageDays": 3, "owner": "Tax Lead" }
+    ]
+  }
+}

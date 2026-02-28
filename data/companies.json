@@ -1,0 +1,356 @@
+{
+  "groupName": "Creek Industrial Group",
+  "asOf": "2026-02-28",
+  "currency": "USD",
+  "groupKpis": {
+    "revenueYTD": 163400000,
+    "salesYTD": 158900000,
+    "transactionsYTD": 428120,
+    "inventoryValue": 41000000,
+    "avgStockCoverDays": 39,
+    "grossMarginPct": 14.8,
+    "taxPayableYTD": 12300000,
+    "cashOnHand": 18600000,
+    "openLeads": 894,
+    "pipelineValue": 77200000,
+    "customerReturnsPct": 1.7,
+    "onTimeDeliveryPct": 91.2
+  },
+  "charts": {
+    "monthlyRevenue": [
+      { "period": "Mar", "value": 11100000 },
+      { "period": "Apr", "value": 11800000 },
+      { "period": "May", "value": 12400000 },
+      { "period": "Jun", "value": 13100000 },
+      { "period": "Jul", "value": 13700000 },
+      { "period": "Aug", "value": 12900000 },
+      { "period": "Sep", "value": 13600000 },
+      { "period": "Oct", "value": 14200000 },
+      { "period": "Nov", "value": 14800000 },
+      { "period": "Dec", "value": 15100000 },
+      { "period": "Jan", "value": 13500000 },
+      { "period": "Feb", "value": 13900000 }
+    ],
+    "monthlyTransactions": [
+      { "period": "Mar", "value": 31210 },
+      { "period": "Apr", "value": 32780 },
+      { "period": "May", "value": 34310 },
+      { "period": "Jun", "value": 35290 },
+      { "period": "Jul", "value": 36820 },
+      { "period": "Aug", "value": 35910 },
+      { "period": "Sep", "value": 37440 },
+      { "period": "Oct", "value": 38900 },
+      { "period": "Nov", "value": 40110 },
+      { "period": "Dec", "value": 41780 },
+      { "period": "Jan", "value": 33510 },
+      { "period": "Feb", "value": 36060 }
+    ],
+    "inventoryByCompany": [
+      { "short": "NF", "value": 14100000 },
+      { "short": "BP", "value": 9300000 },
+      { "short": "SA", "value": 17600000 }
+    ],
+    "salesLeadFunnel": [
+      { "stage": "New", "count": 302 },
+      { "stage": "Qualified", "count": 241 },
+      { "stage": "Quoted", "count": 183 },
+      { "stage": "Negotiation", "count": 112 },
+      { "stage": "Verbal", "count": 56 }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "GT-001",
+      "title": "Clear delayed work orders over 72h",
+      "companyId": "c03",
+      "module": "Operations",
+      "owner": "Plant Ops Lead",
+      "dueDate": "2026-03-01",
+      "priority": "High",
+      "status": "Open"
+    },
+    {
+      "id": "GT-002",
+      "title": "Resolve customs holds with missing docs",
+      "companyId": "c02",
+      "module": "Trade",
+      "owner": "Trade Compliance",
+      "dueDate": "2026-03-02",
+      "priority": "High",
+      "status": "Open"
+    },
+    {
+      "id": "GT-003",
+      "title": "Close finance journal backlog",
+      "companyId": "c03",
+      "module": "Finance",
+      "owner": "Controller",
+      "dueDate": "2026-03-03",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    {
+      "id": "GT-004",
+      "title": "Renegotiate high-variance freight lanes",
+      "companyId": "c02",
+      "module": "Procurement",
+      "owner": "Sourcing Manager",
+      "dueDate": "2026-03-04",
+      "priority": "Medium",
+      "status": "Open"
+    },
+    {
+      "id": "GT-005",
+      "title": "Complete CAPA evidence upload",
+      "companyId": "c01",
+      "module": "Compliance",
+      "owner": "Quality Head",
+      "dueDate": "2026-03-01",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    {
+      "id": "GT-006",
+      "title": "Refresh sales leads older than 30 days",
+      "companyId": "c01",
+      "module": "Sales",
+      "owner": "Regional Sales",
+      "dueDate": "2026-03-05",
+      "priority": "Low",
+      "status": "Open"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "GA-001",
+      "time": "2026-02-28 18:10",
+      "severity": "Critical",
+      "companyId": "c03",
+      "module": "Operations",
+      "message": "Line L2 downtime exceeded 6 hours"
+    },
+    {
+      "id": "GA-002",
+      "time": "2026-02-28 17:50",
+      "severity": "Warning",
+      "companyId": "c02",
+      "module": "Trade",
+      "message": "5 shipments in customs hold over 48h"
+    },
+    {
+      "id": "GA-003",
+      "time": "2026-02-28 17:12",
+      "severity": "Warning",
+      "companyId": "c03",
+      "module": "Finance",
+      "message": "Month-end close slipped to Delayed"
+    },
+    {
+      "id": "GA-004",
+      "time": "2026-02-28 16:48",
+      "severity": "Info",
+      "companyId": "c01",
+      "module": "Inventory",
+      "message": "Critical SKU BR-2010 below reorder point"
+    },
+    {
+      "id": "GA-005",
+      "time": "2026-02-28 16:20",
+      "severity": "Warning",
+      "companyId": "c02",
+      "module": "Tax",
+      "message": "VAT filing due in 4 days"
+    },
+    {
+      "id": "GA-006",
+      "time": "2026-02-28 15:40",
+      "severity": "Info",
+      "companyId": "c01",
+      "module": "Sales",
+      "message": "Pipeline increased 6.4% week-over-week"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "GTR-1001",
+      "time": "2026-02-28 18:03",
+      "companyId": "c02",
+      "reference": "INV-882913",
+      "type": "Invoice",
+      "channel": "EDI",
+      "amount": 48600,
+      "status": "Posted"
+    },
+    {
+      "id": "GTR-1002",
+      "time": "2026-02-28 17:52",
+      "companyId": "c01",
+      "reference": "SO-554122",
+      "type": "Sales Order",
+      "channel": "Portal",
+      "amount": 131200,
+      "status": "Released"
+    },
+    {
+      "id": "GTR-1003",
+      "time": "2026-02-28 17:18",
+      "companyId": "c03",
+      "reference": "PO-330145",
+      "type": "Purchase Order",
+      "channel": "Buyer Desk",
+      "amount": 91400,
+      "status": "Approved"
+    },
+    {
+      "id": "GTR-1004",
+      "time": "2026-02-28 16:47",
+      "companyId": "c03",
+      "reference": "ADJ-7711",
+      "type": "Inventory Adj",
+      "channel": "WMS",
+      "amount": 12400,
+      "status": "Pending"
+    },
+    {
+      "id": "GTR-1005",
+      "time": "2026-02-28 16:15",
+      "companyId": "c01",
+      "reference": "CN-90034",
+      "type": "Credit Note",
+      "channel": "Finance",
+      "amount": 8200,
+      "status": "Posted"
+    },
+    {
+      "id": "GTR-1006",
+      "time": "2026-02-28 15:58",
+      "companyId": "c02",
+      "reference": "EXP-22780",
+      "type": "Export Booking",
+      "channel": "Trade Desk",
+      "amount": 36500,
+      "status": "Confirmed"
+    }
+  ],
+  "salesLeads": [
+    {
+      "id": "GL-001",
+      "companyId": "c01",
+      "account": "Omega Heavy Machines",
+      "value": 2300000,
+      "stage": "Negotiation",
+      "owner": "J. Miller",
+      "nextStepDate": "2026-03-03"
+    },
+    {
+      "id": "GL-002",
+      "companyId": "c02",
+      "account": "Apex Retail Distribution",
+      "value": 1800000,
+      "stage": "Quoted",
+      "owner": "N. Ortiz",
+      "nextStepDate": "2026-03-01"
+    },
+    {
+      "id": "GL-003",
+      "companyId": "c03",
+      "account": "Titan Rail Systems",
+      "value": 2650000,
+      "stage": "Qualified",
+      "owner": "R. Chen",
+      "nextStepDate": "2026-03-05"
+    },
+    {
+      "id": "GL-004",
+      "companyId": "c01",
+      "account": "Nexus Energy Projects",
+      "value": 940000,
+      "stage": "New",
+      "owner": "P. Young",
+      "nextStepDate": "2026-03-06"
+    },
+    {
+      "id": "GL-005",
+      "companyId": "c02",
+      "account": "Mercury Industrial",
+      "value": 1120000,
+      "stage": "Negotiation",
+      "owner": "T. Diaz",
+      "nextStepDate": "2026-03-04"
+    },
+    {
+      "id": "GL-006",
+      "companyId": "c03",
+      "account": "Kepler Components",
+      "value": 760000,
+      "stage": "Quoted",
+      "owner": "A. Shah",
+      "nextStepDate": "2026-03-02"
+    }
+  ],
+  "companies": [
+    {
+      "id": "c01",
+      "name": "Northforge Manufacturing LLC",
+      "region": "US-West",
+      "industry": "Industrial Components Manufacturing",
+      "status": "Active",
+      "plantCount": 3,
+      "employeeCount": 420,
+      "revenueYTD": 68400000,
+      "salesYTD": 66200000,
+      "transactionsYTD": 165340,
+      "stockLevelDays": 36,
+      "leadsOpen": 312,
+      "taxPayableYTD": 4120000,
+      "marginPct": 18.4,
+      "onTimeDeliveryPct": 94.1,
+      "inventoryTurns": 6.2,
+      "complianceScore": 96,
+      "openRisks": 4,
+      "tags": ["Manufacturing", "Export"]
+    },
+    {
+      "id": "c02",
+      "name": "BluePeak Trade Co.",
+      "region": "US-East",
+      "industry": "Global Trade & Distribution",
+      "status": "Active",
+      "plantCount": 1,
+      "employeeCount": 230,
+      "revenueYTD": 41200000,
+      "salesYTD": 40100000,
+      "transactionsYTD": 142880,
+      "stockLevelDays": 28,
+      "leadsOpen": 287,
+      "taxPayableYTD": 3010000,
+      "marginPct": 14.8,
+      "onTimeDeliveryPct": 91.7,
+      "inventoryTurns": 8.5,
+      "complianceScore": 92,
+      "openRisks": 7,
+      "tags": ["Trade", "Distribution"]
+    },
+    {
+      "id": "c03",
+      "name": "Summit Alloy Works Inc.",
+      "region": "US-Central",
+      "industry": "Metal Fabrication & Assembly",
+      "status": "Attention",
+      "plantCount": 2,
+      "employeeCount": 310,
+      "revenueYTD": 53800000,
+      "salesYTD": 52600000,
+      "transactionsYTD": 119900,
+      "stockLevelDays": 54,
+      "leadsOpen": 295,
+      "taxPayableYTD": 5170000,
+      "marginPct": 11.3,
+      "onTimeDeliveryPct": 87.9,
+      "inventoryTurns": 5.1,
+      "complianceScore": 85,
+      "openRisks": 11,
+      "tags": ["Manufacturing", "Domestic"]
+    }
+  ]
+}

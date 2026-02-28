@@ -1,0 +1,363 @@
+{
+  "id": "c02",
+  "name": "BluePeak Trade Co.",
+  "overview": {
+    "revenueYTD": 41200000,
+    "salesYTD": 40100000,
+    "transactionsYTD": 142880,
+    "stockLevelDays": 28,
+    "openLeads": 287,
+    "taxPayableYTD": 3010000,
+    "customerOTD": 91.7
+  },
+  "charts": {
+    "monthlySales": [
+      { "period": "Mar", "value": 3100000 },
+      { "period": "Apr", "value": 3200000 },
+      { "period": "May", "value": 3350000 },
+      { "period": "Jun", "value": 3480000 },
+      { "period": "Jul", "value": 3560000 },
+      { "period": "Aug", "value": 3410000 },
+      { "period": "Sep", "value": 3520000 },
+      { "period": "Oct", "value": 3660000 },
+      { "period": "Nov", "value": 3790000 },
+      { "period": "Dec", "value": 3930000 },
+      { "period": "Jan", "value": 3310000 },
+      { "period": "Feb", "value": 3480000 }
+    ],
+    "monthlyTransactions": [
+      { "period": "Mar", "value": 11980 },
+      { "period": "Apr", "value": 12320 },
+      { "period": "May", "value": 12710 },
+      { "period": "Jun", "value": 13100 },
+      { "period": "Jul", "value": 13380 },
+      { "period": "Aug", "value": 12910 },
+      { "period": "Sep", "value": 13550 },
+      { "period": "Oct", "value": 13860 },
+      { "period": "Nov", "value": 14190 },
+      { "period": "Dec", "value": 14620 },
+      { "period": "Jan", "value": 12380 },
+      { "period": "Feb", "value": 13880 }
+    ]
+  },
+  "sales": {
+    "ordersYTD": 12620,
+    "avgOrderValue": 3180,
+    "winRatePct": 39.6,
+    "pipelineValue": 24100000,
+    "openLeads": 287,
+    "leadsAgingOver30Days": 63,
+    "pipelineStages": [
+      { "stage": "New", "count": 94 },
+      { "stage": "Qualified", "count": 77 },
+      { "stage": "Quoted", "count": 59 },
+      { "stage": "Negotiation", "count": 38 },
+      { "stage": "Verbal", "count": 19 }
+    ],
+    "regionalSales": [
+      { "region": "East", "value": 18400000 },
+      { "region": "South", "value": 10200000 },
+      { "region": "Midwest", "value": 7700000 },
+      { "region": "Export", "value": 3800000 }
+    ],
+    "topCustomers": [
+      { "name": "Apex Retail Distribution", "revenue": 5200000, "growthPct": 10.4 },
+      { "name": "Mercury Industrial", "revenue": 4100000, "growthPct": 6.8 },
+      { "name": "Nova Home Supply", "revenue": 2900000, "growthPct": -1.2 }
+    ],
+    "leads": [
+      { "account": "Apex Retail Distribution", "value": 1800000, "stage": "Quoted", "owner": "N. Ortiz", "nextStepDate": "2026-03-01" },
+      { "account": "Mercury Industrial", "value": 1120000, "stage": "Negotiation", "owner": "T. Diaz", "nextStepDate": "2026-03-04" },
+      { "account": "Bayline Hardware", "value": 680000, "stage": "Qualified", "owner": "D. Wu", "nextStepDate": "2026-03-06" },
+      { "account": "Pioneer Retail", "value": 520000, "stage": "New", "owner": "A. Brown", "nextStepDate": "2026-03-07" }
+    ]
+  },
+  "transactions": {
+    "totalYTD": 142880,
+    "successRatePct": 97.9,
+    "failedCount": 1890,
+    "refundsCount": 760,
+    "chargebackCount": 64,
+    "avgProcessingHours": 2.8,
+    "channelMix": [
+      { "channel": "EDI", "count": 64200 },
+      { "channel": "Portal", "count": 52110 },
+      { "channel": "Trade Desk", "count": 17390 },
+      { "channel": "Manual", "count": 9180 }
+    ],
+    "dailyVolume": [
+      { "day": "Mon", "count": 1610 },
+      { "day": "Tue", "count": 1740 },
+      { "day": "Wed", "count": 1690 },
+      { "day": "Thu", "count": 1670 },
+      { "day": "Fri", "count": 1640 },
+      { "day": "Sat", "count": 950 },
+      { "day": "Sun", "count": 620 }
+    ],
+    "recent": [
+      { "time": "18:03", "reference": "INV-882913", "type": "Invoice", "amount": 48600, "status": "Posted" },
+      { "time": "17:58", "reference": "EXP-22780", "type": "Export Booking", "amount": 36500, "status": "Confirmed" },
+      { "time": "17:23", "reference": "SO-720912", "type": "Sales Order", "amount": 27400, "status": "Released" },
+      { "time": "16:35", "reference": "RTN-1188", "type": "Return", "amount": 6900, "status": "Pending" }
+    ],
+    "exceptions": [
+      { "issue": "Broker invoice mismatch", "count": 42, "owner": "Trade Finance" },
+      { "issue": "Incorrect customer tax code", "count": 27, "owner": "Billing" },
+      { "issue": "Duplicate ASN", "count": 11, "owner": "Logistics IT" }
+    ]
+  },
+  "operations": {
+    "utilizationAvgPct": 86.0,
+    "workOrders": {
+      "open": 74,
+      "released": 60,
+      "delayed": 6,
+      "critical": 2,
+      "completedThisWeek": 96
+    },
+    "scrapRatePct": 1.2,
+    "productionLines": [
+      { "name": "L1 Pick-Pack", "outputUnits": 31200, "oeePct": 88.3, "downtimeHours": 10 },
+      { "name": "L2 Label", "outputUnits": 28600, "oeePct": 84.4, "downtimeHours": 12 },
+      { "name": "L3 Dispatch", "outputUnits": 26400, "oeePct": 85.7, "downtimeHours": 11 }
+    ],
+    "plants": [
+      { "name": "Newark Fulfillment Hub", "short": "NWK", "utilizationPct": 86, "downtimeHours": 14, "safetyIncidents": 0 }
+    ],
+    "maintenance": [
+      { "type": "Preventive", "open": 12, "overdue": 2 },
+      { "type": "Corrective", "open": 5, "overdue": 1 },
+      { "type": "Inspection", "open": 7, "overdue": 0 }
+    ]
+  },
+  "procurement": {
+    "openPOs": 142,
+    "latePOs": 25,
+    "spendYTD": 17800000,
+    "threeWayMatchExceptions": 34,
+    "contractsExpiring90Days": 12,
+    "supplierOTIFPct": 89.5,
+    "poStatus": [
+      { "status": "Open", "count": 142 },
+      { "status": "Approved", "count": 101 },
+      { "status": "Received", "count": 310 },
+      { "status": "Late", "count": 25 }
+    ],
+    "categorySpend": [
+      { "category": "Goods", "value": 7400000 },
+      { "category": "Freight", "value": 4800000 },
+      { "category": "Packaging", "value": 2600000 },
+      { "category": "Services", "value": 3000000 }
+    ],
+    "topVendors": [
+      { "name": "Global Freight Link", "category": "Logistics", "spend": 4800000, "rating": 4.2 },
+      { "name": "East Harbor Commodities", "category": "Goods", "spend": 3600000, "rating": 4.0 },
+      { "name": "OmniPack Solutions", "category": "Packaging", "spend": 1900000, "rating": 4.5 }
+    ],
+    "supplierRisks": [
+      { "vendor": "Global Freight Link", "riskLevel": "Medium", "action": "Lock capacity for Q2" },
+      { "vendor": "East Harbor Commodities", "riskLevel": "High", "action": "Qualify alternate source" }
+    ]
+  },
+  "inventory": {
+    "value": 9300000,
+    "turns": 8.5,
+    "stockLevelDays": 28,
+    "stockouts": 7,
+    "excessSKU": 42,
+    "obsoleteSKU": 18,
+    "warehouseValue": [
+      { "warehouse": "NWK-DC", "value": 5600000 },
+      { "warehouse": "PHL-XD", "value": 2100000 },
+      { "warehouse": "MIA-XD", "value": 1600000 }
+    ],
+    "agingBuckets": [
+      { "bucket": "0-30", "value": 5100000 },
+      { "bucket": "31-60", "value": 2200000 },
+      { "bucket": "61-90", "value": 1100000 },
+      { "bucket": "90+", "value": 900000 }
+    ],
+    "criticalItems": [
+      { "sku": "TR-1188", "description": "Trade Resin", "daysCover": 5, "status": "Low" },
+      { "sku": "PK-3001", "description": "Export Carton", "daysCover": 3, "status": "Critical" },
+      { "sku": "LB-2002", "description": "Label Roll", "daysCover": 4, "status": "Low" }
+    ],
+    "movementQueue": [
+      { "type": "Cross-dock", "count": 31, "owner": "Fulfillment" },
+      { "type": "Cycle Count", "count": 23, "owner": "Inventory Ctrl" },
+      { "type": "Returns", "count": 16, "owner": "Customer Ops" }
+    ]
+  },
+  "trade": {
+    "exportOrders": 182,
+    "importShipments": 121,
+    "customsHolds": 5,
+    "tradeComplianceAlerts": 3,
+    "freightCostYTD": 6100000,
+    "avgTransitDays": 11.4,
+    "laneVolume": [
+      { "lane": "US-CN", "count": 64 },
+      { "lane": "US-IN", "count": 49 },
+      { "lane": "US-MX", "count": 33 },
+      { "lane": "US-GB", "count": 21 }
+    ],
+    "incotermMix": [
+      { "term": "FOB", "count": 102 },
+      { "term": "CIF", "count": 77 },
+      { "term": "DAP", "count": 68 },
+      { "term": "EXW", "count": 56 }
+    ],
+    "customsQueue": [
+      { "shipment": "EXP-12231", "issue": "Document mismatch", "ageDays": 3, "owner": "Trade Desk" },
+      { "shipment": "IMP-77210", "issue": "Tariff code review", "ageDays": 4, "owner": "Broker" },
+      { "shipment": "IMP-77242", "issue": "Valuation hold", "ageDays": 2, "owner": "Broker" }
+    ],
+    "brokerPerformance": [
+      { "name": "EastGate Customs", "onTimePct": 89.8, "disputes": 4 },
+      { "name": "Harborline Brokers", "onTimePct": 91.2, "disputes": 3 }
+    ]
+  },
+  "finance": {
+    "arOverdue": 2200000,
+    "apOverdue": 1560000,
+    "ebitdaPct": 9.7,
+    "cashOnHand": 5400000,
+    "budgetVariancePct": -1.8,
+    "forecastAccuracyPct": 88,
+    "monthCloseStatus": "At Risk",
+    "intercompanyMismatches": 5,
+    "journalBacklog": 11,
+    "dsoDays": 44,
+    "dpoDays": 38,
+    "pnl": [
+      { "line": "Revenue", "actual": 41200000, "budget": 42500000, "variancePct": -3.1 },
+      { "line": "COGS", "actual": 31800000, "budget": 32200000, "variancePct": 1.2 },
+      { "line": "OPEX", "actual": 5400000, "budget": 5200000, "variancePct": -3.8 },
+      { "line": "EBITDA", "actual": 4000000, "budget": 5100000, "variancePct": -21.6 }
+    ],
+    "cashFlowByMonth": [
+      { "period": "Nov", "value": 540000 },
+      { "period": "Dec", "value": 720000 },
+      { "period": "Jan", "value": 310000 },
+      { "period": "Feb", "value": 420000 }
+    ],
+    "financeQueue": [
+      { "task": "AR collections", "count": 41, "owner": "AR Lead" },
+      { "task": "Freight accruals", "count": 19, "owner": "Controller" },
+      { "task": "Invoice disputes", "count": 16, "owner": "Billing" }
+    ]
+  },
+  "tax": {
+    "taxPayableYTD": 3010000,
+    "corporateTaxAccrued": 1620000,
+    "indirectTaxAccrued": 1390000,
+    "filedOnTimePct": 94.2,
+    "auditFlags": 3,
+    "openDisputes": 2,
+    "taxByType": [
+      { "type": "Corp", "value": 1620000 },
+      { "type": "Sales", "value": 810000 },
+      { "type": "Import", "value": 580000 }
+    ],
+    "filingsDue": [
+      { "name": "VAT Return NJ", "dueDate": "2026-03-04", "owner": "Tax Team", "status": "Pending" },
+      { "name": "Import Duty Summary", "dueDate": "2026-03-11", "owner": "Trade Finance", "status": "In Review" }
+    ],
+    "taxRisks": [
+      { "risk": "Tariff classification", "impact": "High", "action": "Broker legal review" },
+      { "risk": "Nexus exposure", "impact": "Medium", "action": "State-by-state assessment" }
+    ],
+    "auditTrail": [
+      { "item": "Q4 VAT filing", "date": "2026-01-18", "state": "Filed" },
+      { "item": "Customs valuation query", "date": "2026-02-09", "state": "Open" }
+    ]
+  },
+  "compliance": {
+    "auditFindingsOpen": 8,
+    "licensesExpiringIn90Days": 4,
+    "trainingCompletionPct": 91,
+    "openCAPA": 7,
+    "policyExceptions": 5,
+    "findingsByArea": [
+      { "area": "Trade", "count": 3 },
+      { "area": "Quality", "count": 2 },
+      { "area": "Finance", "count": 2 },
+      { "area": "IT", "count": 1 }
+    ],
+    "auditCalendar": [
+      { "audit": "Trade Compliance", "date": "2026-03-10", "owner": "Legal", "status": "Scheduled" },
+      { "audit": "Inventory Controls", "date": "2026-03-22", "owner": "Internal Audit", "status": "Planned" }
+    ],
+    "capaQueue": [
+      { "item": "Denied party checks", "owner": "Trade", "dueDate": "2026-03-06", "state": "Open" },
+      { "item": "Approval evidence", "owner": "Finance", "dueDate": "2026-03-08", "state": "In Progress" }
+    ],
+    "licenseRegistry": [
+      { "license": "Import License", "expiryDate": "2026-04-06", "status": "Renewal Needed" },
+      { "license": "Warehouse Permit", "expiryDate": "2026-07-15", "status": "Valid" }
+    ]
+  },
+  "companyManagement": {
+    "legalEntity": "BluePeak Trade Company",
+    "registrationNo": "NJ-220177",
+    "entityType": "Corporation",
+    "hq": "Newark, NJ",
+    "fiscalYear": "Jan-Dec",
+    "currency": "USD",
+    "sites": [
+      { "name": "Newark Fulfillment Hub", "type": "Distribution", "headcount": 168, "manager": "T. Alvarez" },
+      { "name": "Philadelphia XDock", "type": "Cross-dock", "headcount": 38, "manager": "S. O'Brien" },
+      { "name": "Miami XDock", "type": "Cross-dock", "headcount": 24, "manager": "K. Lopez" }
+    ],
+    "bankAccounts": [
+      { "bank": "Citi", "accountNo": "...2240", "currency": "USD", "use": "Operations" },
+      { "bank": "Wells Fargo", "accountNo": "...9972", "currency": "USD", "use": "Trade Settlement" }
+    ],
+    "insurancePolicies": [
+      { "policy": "Cargo Liability", "provider": "Chubb", "expiryDate": "2026-11-30" },
+      { "policy": "General Liability", "provider": "Zurich", "expiryDate": "2026-09-12" }
+    ],
+    "systems": [
+      { "name": "ERP Core", "purpose": "Transactions", "owner": "IT" },
+      { "name": "TMS", "purpose": "Trade Logistics", "owner": "Trade Ops" },
+      { "name": "CRM", "purpose": "Sales Leads", "owner": "Sales" }
+    ]
+  },
+  "masterData": {
+    "items": 9320,
+    "vendors": 418,
+    "customers": 352,
+    "boms": 220,
+    "priceLists": 48,
+    "warehouses": 3
+  },
+  "activity": {
+    "tasks": [
+      { "title": "Resolve customs hold documents", "priority": "High", "companyId": "c02", "module": "Trade", "owner": "Trade Desk", "dueDate": "2026-03-01", "status": "Open" },
+      { "title": "Close freight invoice variances", "priority": "High", "companyId": "c02", "module": "Finance", "owner": "Trade Finance", "dueDate": "2026-03-02", "status": "In Progress" },
+      { "title": "Review aged sales leads", "priority": "Medium", "companyId": "c02", "module": "Sales", "owner": "Sales Ops", "dueDate": "2026-03-03", "status": "Open" },
+      { "title": "Prepare VAT filing pack", "priority": "Medium", "companyId": "c02", "module": "Tax", "owner": "Tax Team", "dueDate": "2026-03-04", "status": "Open" }
+    ],
+    "alerts": [
+      { "message": "5 shipments in customs hold over 48h", "severity": "Warning", "companyId": "c02", "module": "Trade", "time": "2026-02-28 17:50" },
+      { "message": "Month-close at risk for entity", "severity": "Warning", "companyId": "c02", "module": "Finance", "time": "2026-02-28 16:55" },
+      { "message": "VAT return due in 4 days", "severity": "Warning", "companyId": "c02", "module": "Tax", "time": "2026-02-28 16:20" },
+      { "message": "Lead win rate dropped 2.1%", "severity": "Info", "companyId": "c02", "module": "Sales", "time": "2026-02-28 14:46" }
+    ],
+    "timeline": [
+      { "time": "18:03", "event": "INV-882913 posted", "owner": "Billing", "module": "Transactions" },
+      { "time": "17:58", "event": "Export booking confirmed", "owner": "Trade Desk", "module": "Trade" },
+      { "time": "16:48", "event": "Shipment moved to customs hold", "owner": "Broker", "module": "Trade" },
+      { "time": "15:39", "event": "Pipeline stage changed", "owner": "Sales Ops", "module": "Sales" }
+    ],
+    "pendingApprovals": [
+      { "request": "Freight invoice override", "count": 6, "owner": "Trade Finance" },
+      { "request": "PO > $75k", "count": 5, "owner": "Procurement" },
+      { "request": "Customer credit hold", "count": 4, "owner": "AR" }
+    ],
+    "escalations": [
+      { "issue": "Customs hold cluster", "ageDays": 4, "owner": "Trade Compliance" },
+      { "issue": "Freight cost spike", "ageDays": 3, "owner": "Sourcing" }
+    ]
+  }
+}
